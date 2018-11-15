@@ -5,7 +5,7 @@
 # @Site    : 
 # @File    : decrypt.py
 # @Software: PyCharm
-# @E-mail  : yangjh@szkingdom.com
+# @E-mail  : allenyangvip@126.com
 #
 
 from Decregister import main as dec_reg,n_decode
@@ -37,6 +37,7 @@ def main(encoded):
     print 'Decrypted string:', decoded
     print secret
     return decoded
+
 
 if __name__ == '__main__':
     # de_str = "sBN+NzXMpRwAX9xR1DEpY6O5sd6IJBPgCxJvPIKphsDnkUA/kuf3s7e8xe7ekN8NVQNVbjMCWlWAhZg18NzgTA=="

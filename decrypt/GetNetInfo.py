@@ -5,7 +5,7 @@
 # @Site    : 
 # @File    : GetNetInfo.py
 # @Software: PyCharm
-# @E-mail  : yangjh@szkingdom.com
+# @E-mail  : allenyangvip@126.com
 
 
 import os

@@ -5,7 +5,7 @@
 # @Site    : 
 # @File    : MakeLic.py
 # @Software: PyCharm
-# @E-mail  : yangjh@szkingdom.com
+# @E-mail  : allenyangvip@126.com
 
 """
 Don't doubt why I use the ip and netmask to make the secret.
@@ -79,16 +79,22 @@ if __name__ == '__main__':
     # 2:the end time
     # 3:the host num
     # 4:the secret
-    start_stmp = 1521422369
-    end_stmp = 1524100769
-    h_num = 66
-    secret = "DkCb@lEf@h=uDkCb@lEf@h:n>"
+    start_stmp = 1540364872   # jt
+    # end_stmp = 1548313672
+    end_stmp = 1548313672    # 3yueyihou
+    h_num = 100
+    # secret = "DkCb@lEf@h=DkCb@lEf@h:n>"
+    # secret = "DkCb@lEf=o=j8u=EgFbAkBf=o>j7"
+    # secret = "DkCb@lEf<j9j8p=EgFbAkBf=o>j7"
+    # secret = "DkCb@lEf=o=j9o8EgFbAkBf=o>j7"
+    # secret = "Dj?l=i?f>qEgFbAkBf=o>j7"
+    secret = "DkCb@lEf@h?mDkCb@lEf@h:n>"
     msg = ""
-    msg +=  str(start_stmp)
+    msg += str(start_stmp)
     msg += "," + str(end_stmp)
     msg += "," + str(h_num)
     msg += "," + str(secret)
-    main("szkingdom",msg)
+    main("localhostLIC",msg)
 
 
 

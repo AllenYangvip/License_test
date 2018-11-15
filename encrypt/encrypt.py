@@ -5,7 +5,7 @@
 # @Site    : 
 # @File    : encrypt.py
 # @Software: PyCharm
-# @E-mail  : yangjh@szkingdom.com
+# @E-mail  : allenyangvip@126.com
 
 #
 from Crypto.Cipher import AES

@@ -5,7 +5,7 @@
 # @Site    : 
 # @File    : Decregister.py
 # @Software: PyCharm
-# @E-mail  : yangjh@szkingdom.com
+# @E-mail  : allenyangvip@126.com
 
 from GetNetInfo import main as getnet
 import random
@@ -36,6 +36,8 @@ def main():
     #     if k:
     #         test_b.append(int(n_decode(k)))
     # print test_b
+
+
 
 
 def n_decode(lst):
